@@ -1,0 +1,31 @@
+body{
+    background-image : url("background.jpg");
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size : cover;
+    background-attachment : fixed;
+}
+#header{
+    border : 10px solid pink;
+    margin-bottom : 5px;
+    padding : 20px;
+    text-align : center;
+}
+#contain{
+    width : 1300px;
+    height : 500px;
+    border : 10px solid pink;
+    float : right;
+}
+#subcontain{
+    width : 305px;
+    height : 200px;
+    border : 10px solid powderblue;
+    float : left;
+}
+#copyright{
+    clear : both;
+    padding : 20px;
+    border : 10px solid black;
+    text-align : right;
+}
